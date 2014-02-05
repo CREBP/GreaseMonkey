@@ -4,4 +4,6 @@ A collection of various helpful GreaseMonkey scripts used by the [Bond Universit
 
 TripDatabase.com Download All
 =============================
+[UserScripts Page](http://userscripts.org/scripts/show/316567)
+
 This script adds a 'Download All' button on any (TripDatabase)[http://tripdatabase.com] search page allowing for easy export of all records to RIS format.
