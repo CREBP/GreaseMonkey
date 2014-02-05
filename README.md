@@ -6,4 +6,4 @@ TripDatabase.com Download All
 =============================
 [UserScripts Page](http://userscripts.org/scripts/show/316567)
 
-This script adds a 'Download All' button on any (TripDatabase)[http://tripdatabase.com] search page allowing for easy export of all records to RIS format.
+This script adds a 'Download All' button on any [TripDatabase](http://tripdatabase.com) search page allowing for easy export of all records to RIS format.
