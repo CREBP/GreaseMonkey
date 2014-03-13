@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name       PubMed Download All
+// @name       PubMed Health Download All
 // @namespace  http://crebp.net.au
 // @version    1.0
-// @description  Script to automatically save all results in a TripDatabase search to an RIS file.
+// @description  Script to automatically save all results in a PubMed Health search to an RIS file.
 // @include    http://www.ncbi.nlm.nih.gov/pubmedhealth/*
 // @grant      none
 // @require    http://code.jquery.com/jquery-1.11.0.min.js
 // @require    http://raw.github.com/eligrey/FileSaver.js/master/FileSaver.js
 // @require    http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
 // @copyright  2014+, Matt Carter <m@ttcarter.com>
-// @downloadURL https://raw2.github.com/CREBP/GreaseMonkey/master/PubMed%20Download%20All.js
-// @updateURL https://raw2.github.com/CREBP/GreaseMonkey/master/PubMed%20Download%20All.js
+// @downloadURL https://raw2.github.com/CREBP/GreaseMonkey/master/PubMed%20Health%20Download%20All.js
+// @updateURL https://raw2.github.com/CREBP/GreaseMonkey/master/PubMed%20Health%20Download%20All.js
 // ==/UserScript==
 $(function() {
 	$('body')
