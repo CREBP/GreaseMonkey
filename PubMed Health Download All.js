@@ -8,6 +8,7 @@
 // @grant      none
 // @require    http://code.jquery.com/jquery-1.11.0.min.js
 // @require    http://raw.github.com/eligrey/FileSaver.js/master/FileSaver.js
+// @require    http://medialize.github.io/URI.js/src/URI.min.js
 // @require    http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
 // @copyright  2014+, Matt Carter <m@ttcarter.com>
 // @downloadURL https://raw2.github.com/CREBP/GreaseMonkey/master/PubMed%20Health%20Download%20All.js
@@ -20,6 +21,12 @@ $(function() {
 
 	if (window.location.href.substr(0, 8) == 'https://') // Switch to http:// version
 		window.location.href = window.location.href.replace('https://', 'http://');
+
+	$('a[data-value_id]').on('click', function() { // Fix the stupid inline link filter thats used on the site
+		var myURI = URI(window.location)
+			.setSearch('filters', $(this).data('value_id'));
+		window.location.replace(myURI.toString());
+	});
 
 	$('<a title="Download all references" class="active page_link" href="#">Download All</a>')
 		.prependTo($('.pagination'))
