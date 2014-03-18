@@ -108,7 +108,7 @@ $(function() {
 					
 					matches = /^Version: ([0-9]+)$/.exec(str);
 					if (matches)
-						return matches[2] + '///';
+						return matches[1] + '///';
 
 					return '';
 				},
