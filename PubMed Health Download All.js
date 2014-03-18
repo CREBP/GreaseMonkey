@@ -4,6 +4,7 @@
 // @version    1.0
 // @description  Script to automatically save all results in a PubMed Health search to an RIS file.
 // @include    http://www.ncbi.nlm.nih.gov/pubmedhealth/*
+// @include    https://www.ncbi.nlm.nih.gov/pubmedhealth/*
 // @grant      none
 // @require    http://code.jquery.com/jquery-1.11.0.min.js
 // @require    http://raw.github.com/eligrey/FileSaver.js/master/FileSaver.js
@@ -16,6 +17,9 @@ $(function() {
 	$('body')
 		.prepend('<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css"/>')
 	.css('font-size', '10px');
+
+	if (window.location.href.substr(0, 8) == 'https://') // Switch to http:// version
+		window.location.href = window.location.href.replace('https://', 'http://');
 
 	$('<a title="Download all references" class="active page_link" href="#">Download All</a>')
 		.prependTo($('.pagination'))
