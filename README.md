@@ -13,8 +13,8 @@ Installation Instructions
 	* **Safari** [via hacks](http://www.simplehelp.net/2007/11/14/how-to-run-greasemonkey-scripts-in-safari/)
 
 2. Chose one or more scripts to install:
-	* [Epistemonikos Download All](Epistemonikos Download All.user.js)
-	* [PubMed Health Download All](PubMed Health Download All.user.js)
-	* [TripDatabase.com Download All](TripDatabase.com Download All.user.js)
+	* [Epistemonikos Download All](https://github.com/CREBP/GreaseMonkey/raw/master/Epistemonikos%20Download%20All.user.js)
+	* [PubMed Health Download All](https://github.com/CREBP/GreaseMonkey/raw/master/PubMed%20Health%20Download%20All.user.js)
+	* [TripDatabase.com Download All](https://github.com/CREBP/GreaseMonkey/raw/master/TripDatabase.com%20Download%20All.user.js)
 
 3. On visiting one of the above sites you should now have a 'Download All' button
