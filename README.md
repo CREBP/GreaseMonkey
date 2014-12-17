@@ -10,6 +10,7 @@ Installation Instructions
 	* **Chrome** - [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 	* **Firefox** - [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
 	* **Opera** [via JavaScript files](http://www.ghacks.net/2008/08/10/greasemonkey-in-opera/)
+	* **Safari** [via hacks](http://www.simplehelp.net/2007/11/14/how-to-run-greasemonkey-scripts-in-safari/)
 
 2. Chose one or more scripts to install:
 	* [Epistemonikos Download All](Epistemonikos Download All.user.js)
